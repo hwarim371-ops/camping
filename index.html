@@ -51,7 +51,7 @@
 
   <script>
     /* Google Apps Script 배포 후 /exec 주소를 아래에 입력하세요. */
-    const SCRIPT_URL = "여기에_GOOGLE_APPS_SCRIPT_EXEC_URL을_입력하세요";
+    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycby4tdgiitrfEpDSUCEQpXhr2wbtEl-SX17xZI2Kw7ghDMDAiJ2iYQg-l2kjIKdYiJ2SKA/exec";
 
     const qs=new URLSearchParams(location.search);
     const campground={id:(qs.get("camp")||"campground").slice(0,80),name:(qs.get("name")||"캠핑장").slice(0,120)};
